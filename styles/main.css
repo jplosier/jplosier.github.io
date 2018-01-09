@@ -1,0 +1,9 @@
+body { margin: 0; padding: 0; background-color:#cccca7; font-family: sans-serif;}
+p { margin : 0.5em; font-size: 100%; }
+header { background-color:black; color: white; }
+header img { height: 1.5em; margin: 0 10px; }
+header h1 { display: inline-block; margin: 0; }
+div.description { border: 2px solid black; border-radius:4px; padding:4px; margin: 10px; background-color:#ffffc9; }
+div.description h2, nav.actions h2{ margin-top: 0; }
+nav { margin: 10px; border: 2px solid black; border-radius: 4px; padding: 4px; background-color: #fff; }
+nav ul { margin:0; }
