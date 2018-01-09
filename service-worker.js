@@ -18,9 +18,7 @@ var filesToCache = [
   '/',
   '/index.html',
   '/scripts/main.js',
-  '/styles/main.css',
-  '/images/clear.png',
-  '/images/wind.png'
+  '/styles/main.css'
 ];
 
 self.addEventListener('install', function(e) {
