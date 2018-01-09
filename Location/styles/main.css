@@ -1,0 +1,10 @@
+body {
+  padding: 20px;
+  background-color:#ffffc9;
+  font-family: sans-serif;
+}
+
+p { 
+  margin : 0; 
+  font-size: 80%;
+}

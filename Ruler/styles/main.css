@@ -1,0 +1,40 @@
+body { margin:0; padding:0; overflow:hidden; font-family:sans-serif; font-weight:bold; }
+
+button { position: absolute; }
+button#open { left:1em; top:1em; }
+button#close { left:1em; top:3em; }
+
+/*  phi = 1.6180339887498948482  */
+/*  1/phi = 0.6180339887498952  */
+/*  1-phi = 0.3819660112501048  */
+.tick { position: absolute; margin:0; padding:0; border-left:1px solid #888888; height:100vh; }
+.tick.phi    { left:61.8033vw; border-color:blue; padding-top:1em; }
+.tick.negphi { left:38.1966vw; border-color:green; padding-top:1em; }
+.tick.one    { left:calc( 1 * 100vw / 12); }
+.tick.two    { left:calc( 2 * 100vw / 12); }
+.tick.three  { left:calc( 3 * 100vw / 12); }
+.tick.four   { left:calc( 4 * 100vw / 12); border-color:red; }
+.tick.five   { left:calc( 5 * 100vw / 12); }
+.tick.six    { left:calc( 6 * 100vw / 12); border-color:black; }
+.tick.seven  { left:calc( 7 * 100vw / 12); }
+.tick.eight  { left:calc( 8 * 100vw / 12); border-color:red; }
+.tick.nine   { left:calc( 9 * 100vw / 12); }
+.tick.ten    { left:calc(10 * 100vw / 12); }
+.tick.eleven { left:calc(11 * 100vw / 12); }
+.tick.twelve { right:0px; border-left:none; border-right:1px solid black; }
+
+.tall { position: absolute; margin:0; padding:0; border-top:1px solid #888888; width:100vw; font-size:1em; }
+.tall.phi    { top:61.8033vh; border-color:blue; padding-left:1em; }
+.tall.negphi { top:38.1966vh; border-color:green; padding-left:1em; }
+.tall.one    { top:calc( 1 * 100vh / 12); }
+.tall.two    { top:calc( 2 * 100vh / 12); }
+.tall.three  { top:calc( 3 * 100vh / 12); }
+.tall.four   { top:calc( 4 * 100vh / 12); border-color:red; }
+.tall.five   { top:calc( 5 * 100vh / 12); }
+.tall.six    { top:calc( 6 * 100vh / 12); border-color:black;}
+.tall.seven  { top:calc( 7 * 100vh / 12); }
+.tall.eight  { top:calc( 8 * 100vh / 12); border-color:red; }
+.tall.nine   { top:calc( 9 * 100vh / 12); }
+.tall.ten    { top:calc(10 * 100vh / 12); }
+.tall.eleven { top:calc(11 * 100vh / 12); }
+.tall.twelve { bottom:0px; border-top:none; border-bottom:1px solid black; }
