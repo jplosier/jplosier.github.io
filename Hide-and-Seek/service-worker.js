@@ -15,10 +15,10 @@
 var dataCacheName = 'hideAndSeekData-v1';
 var cacheName = 'hideAndSeekPWA-v1';
 var filesToCache = [
-  '/',
-  '/index.html',
-  '/scripts/main.js',
-  '/styles/main.css'
+  '/Hide-and-Seek/',
+  '/Hide-and-Seek/index.html',
+  '/Hide-and-Seek/scripts/main.js',
+  '/Hide-and-Seek/styles/main.css'
 ];
 
 self.addEventListener('install', function(e) {
