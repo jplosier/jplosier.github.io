@@ -15,7 +15,7 @@
 var dataCacheName = 'hideAndSeekData-v1';
 var cacheName = 'hideAndSeekPWA-v1';
 var filesToCache = [
-  '/Hide-and-Seek/',
+  '/Hide-and-Seek/favicon.ico',
   '/Hide-and-Seek/index.html',
   '/Hide-and-Seek/scripts/main.js',
   '/Hide-and-Seek/styles/main.css'
