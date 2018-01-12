@@ -87,7 +87,8 @@ function loadMap(mapURL) {
   xhr.open('GET', mapURL);
   xhr.onload = function(e) {
     var data = JSON.parse(this.response);
-    
+    Map = data;
+    console.log('loaded map("' + Map.map + '")');
   }
   xhr.send();
 
