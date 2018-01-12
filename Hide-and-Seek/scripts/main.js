@@ -55,7 +55,6 @@ function handleOrientation(event) {
 }
 
 function orientationhandler(evt){
-  
   // For FF3.6+
   if (!evt.gamma && !evt.beta) {
     evt.gamma = -(evt.x * (180 / Math.PI));
@@ -74,6 +73,32 @@ orientationOut.innerHTML = "<p>Locating…</p>";
 window.addEventListener("deviceorientation", handleOrientation, true);
 window.addEventListener('MozOrientation',    orientationhandler, false);
 */
+
+/* ********************************************** */
+/* * Map Handling                               * */
+/* ********************************************** */
+
+var Map = {};
+
+/* Load Map */
+function loadMap(mapURL) {
+  console.log('loadMap()');
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', mapURL);
+  xhr.onload = function(e) {
+    var data = JSON.parse(this.response);
+    
+  }
+  xhr.send();
+
+};  // loadMap();
+
+
+window.addEventListener('load', function() { loadMap('./data/Billys_House.json'); });
+
+
+/* ****************************************** */
+/* * Service Worker */
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {

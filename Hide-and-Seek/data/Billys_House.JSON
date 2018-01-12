@@ -1,0 +1,102 @@
+{
+  "map": "Billy's House",
+  "description": "A simple map of a two-bedroom home;",
+  "rooms": [{
+    "name": "The Front Porch",
+    "id": "porch",
+    "description": "You are on the front porch of your good friend Billy's house. You and Billy often play Hide and Seek at his house.\r\nBilly runs into the front door, calling back, \"I'll be hiding inside! Try to find me!\"",
+    "exits": [
+      { "direction": "n",  "room": "foyer", "text": "count to 100 and enter the house to the north" }
+    ]
+  },
+  {
+    "name": "The Foyer",
+    "id": "foyer",
+    "description": "You are in a cozy tiled foyer. The north side of the foyer opens into the hall.",
+    "exits": [
+      { "direction": "n",  "room": "hallway", "text": "go north to the hallway" }
+    ]
+  },
+  {
+    "name": "The Hallway",
+    "id": "hallway",
+    "description": "You are in a hallway.",
+    "exits": [
+      { "direction": "n",  "room": "closet", "text": "go north to the closet" },
+      { "direction": "ne", "room": "master", "text": "go northeast to Billy's parents' room"},
+      { "direction": "e",  "room": "bath",   "text": "go east to the bathroom" },
+      { "direction": "se", "room": "bed2",   "text": "go southeast to Billy's room" },
+      { "direction": "s",  "room": "foyer",  "text": "go south to the foyer" },
+      { "direction": "sw", "room": "dining", "text": "go southwest to the dining room" },
+      { "direction": "nw", "room": "living", "text": "go northwest to the living room" }
+    ]
+  },
+  {
+    "name": "The Coat Closet",
+    "id": "closet",
+    "description": "You are in a dark closet.",
+    "exits": [
+      {  "direction": "s",  "room": "hallway", "text": "go south to the hallway" }
+    ]
+  },
+  {
+    "name": "Billy's Parents' Room",
+    "id": "master",
+    "description": "You are Billy's Parents' Bedroom. He's not allowed to play in here.",
+    "exits": [
+      { "direction": "s",  "room": "hallway", "text": "go south to the hallway" }
+    ]
+  },
+  {
+    "name": "The Bathroom",
+    "id": "bath",
+    "description": "You are in the bathroom.",
+    "exits": [
+      { "direction": "w",  "room": "hallway", "text": "go west to the hallway" }
+    ]
+  },
+  {
+    "name": "Billy's Room",
+    "id": "bed2",
+    "description": "You are in Billy's Room. It's a mess.",
+    "exits": [
+      { "direction": "n",  "room": "hallway", "text": "go north to the hallway" }
+    ]
+  },
+  {
+    "name": "The Dining Room",
+    "id": "dining",
+    "description": "You are in the dining room.",
+    "exits": [
+      { "direction": "e",  "room": "hallway", "text": "go east to the hallway" },
+      { "direction": "w",  "room": "kitchen", "text": "go west to the kitchen" }
+    ]
+  },
+  {
+    "name": "The Kitchen",
+    "id": "kitchen",
+    "description": "You are in the kitchen.",
+    "exits": [
+      { "direction": "ne", "room": "living",  "text": "go northeast to the living room" },
+      { "direction": "se", "room": "dining",  "text": "go southeast to the dining room" },
+      { "direction": "s",  "room": "laundry", "text": "go south to the laundry room"    }
+    ]
+  },
+  {
+    "name": "The Laundry Room",
+    "id": "laundry",
+    "description": "You are in the laundry room.",
+    "exits": [
+      { "direction": "n",  "room": "kitchen", "text": "go north to the kitchen" }
+    ]
+  },
+  {
+    "name": "The Living Room",
+    "id": "living",
+    "description": "You are in the living room. That's a big TV.",
+    "exits": [
+      { "direction": "e",  "room": "hallway", "text": "go east to the hallway" },
+      { "direction": "w",  "room": "kitchen", "text": "go west to the kitchen" }
+    ]
+  }]
+}
