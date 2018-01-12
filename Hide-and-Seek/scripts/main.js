@@ -95,7 +95,7 @@ function loadMap(mapURL) {
 };  // loadMap();
 
 
-window.addEventListener('load', function() { loadMap('./data/Billys_House.json'); });
+window.addEventListener('load', function() { loadMap('./data/Billys_House.JSON'); });
 
 
 /* ****************************************** */
